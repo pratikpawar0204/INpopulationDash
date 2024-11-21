@@ -13,7 +13,7 @@ st.set_page_config(
 
 # Load dataset with caching
 def load_data():
-    return pd.read_csv("inpop - Sheet1.csv")
+    return pd.read_csv("popuse/inpop - Sheet1.csv")
 
 df = load_data()
 
