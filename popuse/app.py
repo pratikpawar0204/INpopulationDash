@@ -11,7 +11,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Load dataset
+# Load dataset with caching
 def load_data():
     return pd.read_csv("inpop - Sheet1.csv")
 
